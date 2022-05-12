@@ -1,11 +1,13 @@
 import React from 'react';
 
+import Nav from '../Nav/Nav';
+
+import elements from '../../elements/elements';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        HEADER
-      </header>
+      <Nav items={elements}/>
     </div>
   );
 }
